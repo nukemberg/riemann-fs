@@ -1,0 +1,4 @@
+- cache host and service list
+- consider migration to nodefs inode base filesystem
+- .query free query interface
+- .send - send event to riemann by writing into a file
