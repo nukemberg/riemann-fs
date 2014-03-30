@@ -1,6 +1,6 @@
 # RiemannFS
 
-RiemannFS is a fuse filesystem that exposes the [Riemmann](http://riemann.io/) index on a mounted filesystem.
+RiemannFS is a fuse filesystem that exposes the [Riemann](http://riemann.io/) index on a mounted filesystem.
 
 ## Usage
 
@@ -10,7 +10,7 @@ Build the binary
 
 Then run the mount command
 
-    riemann-fs -host=192.168.2.31 -port=5555 /mnt/riemann
+    ./riemann-fs -host=192.168.2.31 -port=5555 /mnt/riemann
 
 ## License
 
